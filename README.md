@@ -23,6 +23,7 @@ Using Redux as a state management library and Reactflow library as the flow buil
 - The user can set the node name.
 - Users can choose the node type to customize the inputs and outputs of its nodes in the flow (input only, output only, default input, and output).
 - Users can drag and drop the elements in the canvas to structure it as they desire.
+- user can connect the nodes to represent the required flow.
 
 ## What did I use to make it happen?
 
