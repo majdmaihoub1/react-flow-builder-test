@@ -1,7 +1,8 @@
-
  ### Description : 
 This repo intended to demonstrate the build of a basic React visual flowchart builder app
 Using Redux as a state management library and Reactflow library as the flow builder and the material UI as a UI library.
+ ## Demo
+ [view live deom](https://majdmaihoub1.github.io/react-flow-builder-test/)
 
 ## How to run :
 1-Open the project in your favorite IDE

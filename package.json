@@ -1,6 +1,7 @@
 {
   "name": "react-flow-add-node-button-with-redux",
   "version": "1.0.0",
+  "homepage": "https://majdmaihoub1.github.io/react-flow-builder-test",
   "description": "Simple add node button that positions directly under previous node.\n\nOriginal credit goes to @richblend",
   "keywords": [],
   "main": "src/index.js",
@@ -9,6 +10,7 @@
     "@emotion/styled": "11.6.0",
     "@material-ui/styles": "4.11.4",
     "@mui/material": "5.4.0",
+    "gh-pages": "^3.2.3",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-flow-renderer": "8.0.0",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest ",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
