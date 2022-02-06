@@ -1,0 +1,40 @@
+{
+  "name": "react-flow-add-node-button-with-redux",
+  "version": "1.0.0",
+  "description": "Simple add node button that positions directly under previous node.\n\nOriginal credit goes to @richblend",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "11.7.1",
+    "@emotion/styled": "11.6.0",
+    "@material-ui/styles": "4.11.4",
+    "@mui/material": "5.4.0",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-flow-renderer": "8.0.0",
+    "react-redux": "7.2.6",
+    "react-scripts": "3.4.3",
+    "redux": "4.1.2",
+    "redux-thunk": "2.4.1",
+    "reselect": "^4.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.0",
+    "jest": "^24.9.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest ",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
